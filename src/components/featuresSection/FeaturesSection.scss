@@ -1,0 +1,43 @@
+@import "../../initialStyle";
+
+#features {
+  padding: 143px 0;
+  .features-inner {
+    background-image: url("../../assets/images/backgroundsurah.svg");
+    background-size: 100%;
+    height: 100%;
+
+    #tab-options {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 50px;
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+      .tab-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        &:first-child {
+          margin-right: 30px;
+        }
+
+        &.tab-active {
+          color: $color-5;
+          background-color: $color-1;
+          border-radius: 30px;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}

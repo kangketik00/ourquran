@@ -1,0 +1,37 @@
+@import "../../initialStyle";
+.surah-collection-item-skleton {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 44px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+
+  .surah-detail {
+    h3 {
+      font-size: $h3;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+      color: $color-1;
+    }
+
+    p {
+      font-size: $h6;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 21px;
+      color: $color-2;
+    }
+  }
+
+  .surah-name {
+    h3 {
+      font-family: Lateef;
+      font-style: normal;
+      font-weight: normal;
+      font-size: $text-size-arab-1;
+      color: $color-2;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../initialStyle";
+
+#nav-items {
+  .nav-link {
+    cursor: pointer;
+    color: #4f4f4f;
+    margin-right: 30px;
+    font-size: $h5;
+    &:hover {
+      color: $color-1;
+    }
+
+    &.active {
+      color: $color-1;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

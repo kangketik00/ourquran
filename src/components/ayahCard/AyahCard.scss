@@ -1,0 +1,50 @@
+@import "../../initialStyle";
+.ayah-card {
+  @include card-box;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 30px;
+  .surah {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+
+    .number-surah {
+      background-color: $color-1;
+      color: $color-5;
+      font-size: 12px;
+      display: grid;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+    }
+
+    .text-ayah {
+      font-family: "Lateef";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 38px;
+      line-height: 69px;
+      text-align: right;
+      width: 80%;
+    }
+  }
+  .text-translate {
+    .text-transliteration {
+      color: $color-2;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: 10px;
+      line-height: 21px;
+    }
+
+    .text-translation {
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 27px;
+      color: $color-1;
+    }
+  }
+}

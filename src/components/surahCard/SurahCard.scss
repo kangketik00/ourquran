@@ -1,0 +1,55 @@
+@import "../../initialStyle";
+
+.surah-collection-item {
+  @include card-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 30px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-1;
+    .surah-detail {
+      .text-transliteration {
+        color: #ffffff;
+      }
+
+      .text-translation {
+        color: #ffffff;
+      }
+    }
+
+    .surah-name {
+      h3 {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .surah-detail {
+    .text-transliteration {
+      font-size: $h4;
+      font-style: normal;
+      line-height: 36px;
+      color: $color-1;
+    }
+
+    .text-translation {
+      font-size: $h6;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 21px;
+      color: $color-2;
+    }
+  }
+
+  .surah-name {
+    h3 {
+      font-family: "Lateef";
+      font-style: normal;
+      font-weight: normal;
+      font-size: $text-size-arab-1;
+      color: $color-2;
+    }
+  }
+}

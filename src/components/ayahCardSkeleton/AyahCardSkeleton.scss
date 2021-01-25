@@ -1,0 +1,23 @@
+@import "../../initialStyle";
+.ayah-card-skeleton {
+  background-color: $color-5;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .number-surah {
+    display: inline-block;
+    margin-bottom: 41px;
+  }
+
+  .text-transliteration {
+    font-size: 14px;
+  }
+
+  .text-translation {
+    font-size: $h4;
+  }
+}

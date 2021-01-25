@@ -1,0 +1,23 @@
+$color-1: #3e8a8e;
+$color-2: #0e1111;
+$color-3: #4f4f4f;
+$color-4: #c0c0c0;
+$color-5: #ffffff;
+$color-6: #7c7c7c;
+$button-color-1: #d93e3e;
+
+$h1: 54px;
+$h2: 30px;
+$h3: 24px;
+$h4: 18px;
+$h5: 16px;
+$h6: 14px;
+
+$text-size-arab-1: 48px;
+$text-size-arab-2: 36px;
+
+@mixin card-box {
+  background-color: $color-5;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
