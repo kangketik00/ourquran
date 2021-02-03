@@ -8,7 +8,7 @@ export default function NavItems() {
   const list = () => {
     return (
       <>
-        {["Home", "Features", "About", "Contact"].map((text, idx) => (
+        {["Home", "Features", "About"].map((text, idx) => (
           <Link
             key={text}
             to={text === "Home" ? "jumbotron-header" : text.toLowerCase()}

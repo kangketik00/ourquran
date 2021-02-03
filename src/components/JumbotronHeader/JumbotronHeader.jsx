@@ -17,6 +17,7 @@ class JumbotronHeader extends Component {
                 A Moslem Daily Worship <br />
                 Read <span>Qur’an</span>
               </h1>
+
               <p>have you read the al-qur’an today ?</p>
             </div>
             <Button variant="contained" color="secondary">

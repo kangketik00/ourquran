@@ -11,7 +11,7 @@ export default function NavDrawer({ anchor, open, handleClose, handleOpen }) {
   const list = () => (
     <div role="presentation" onClick={handleClose} onKeyDown={handleClose}>
       <List>
-        {["Home", "Features", "About", "Contact"].map((text, index) => (
+        {["Home", "Features", "About"].map((text, index) => (
           <ListItem button key={index}>
             <ListItemText>
               <Link
