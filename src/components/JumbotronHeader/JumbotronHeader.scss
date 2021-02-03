@@ -6,20 +6,6 @@ section#jumbotron-header {
     place-items: center;
     text-align: center;
     padding-top: 82px;
-
-    .MuiButton-root {
-      border-radius: 8px;
-      background-color: #ff4f4f;
-      font-size: 16px;
-      padding: 9px 14px;
-    }
-
-    svg#hero-image {
-      width: 100%;
-      height: auto;
-      margin-top: -70px;
-    }
-
     .tex-box {
       h1 {
         font-weight: bold;
@@ -37,32 +23,76 @@ section#jumbotron-header {
         color: $color-4;
         margin-top: 15px;
         margin-bottom: 39px;
+        font-size: $h5;
       }
+    }
+    .MuiButton-root {
+      border-radius: 8px;
+      background-color: #ff4f4f;
+      font-size: $h5;
+      padding: 9px 14px;
+    }
+
+    svg#hero-image {
+      width: 100%;
+      height: auto;
+      margin-top: -70px;
     }
   }
 }
 
 // Medium devices (tablets, 768px and down)
-@media (max-width: 768px) {
+@media (max-width: 1199.98px) {
   section#jumbotron-header {
     .jumbotron-header-inner {
       padding: 42px 0;
-    }
+      .tex-box {
+        h1 {
+          font-size: $h1 - 15;
+          line-height: 50px;
+        }
 
-    .tex-box {
-      h1 {
-        font-size: $h1/2 !important;
-        line-height: normal !important;
+        p {
+          margin-top: 10px;
+          margin-bottom: 29px;
+          font-size: 12px;
+        }
+      }
+
+      .MuiButton-root {
+        font-size: $h5 - 5;
+      }
+
+      svg#hero-image {
+        margin-top: -30px;
       }
     }
   }
 }
-// Extra small devices (portrait phones, less than 576px)
+
+// Mobile
 @media (max-width: 575.98px) {
   section#jumbotron-header {
     .jumbotron-header-inner {
+      padding: 42px 0 0 0;
+      .tex-box {
+        h1 {
+          font-size: $h1 - 30;
+          line-height: 35px;
+        }
+
+        p {
+          margin-top: 10px;
+          margin-bottom: 39px;
+          font-size: 10px;
+        }
+      }
+
+      .MuiButton-root {
+        font-size: $h5 - 8;
+      }
+
       svg#hero-image {
-        height: auto;
         margin-top: 0px;
       }
     }

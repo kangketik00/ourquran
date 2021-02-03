@@ -6,15 +6,21 @@ $color-5: #ffffff;
 $color-6: #7c7c7c;
 $button-color-1: #d93e3e;
 
-$h1: 54px;
-$h2: 30px;
-$h3: 24px;
-$h4: 18px;
-$h5: 16px;
-$h6: 14px;
+$h1: 54px; // ada
+$h2: 30px; // ada
+$h3: 24px; // ada
+$h4: 18px; // ada
+$h5: 16px; // ada
+$h6: 14px; // ada
+$h7: 42px; // ada
+$h8: 20px; // ada
+$h9: 17px; // ada
+$h10: 38px; // ada
+$h11: 12px;
 
 $text-size-arab-1: 48px;
 $text-size-arab-2: 36px;
+$text-size-arab-3: 44px; //ada
 
 @mixin card-box {
   background-color: $color-5;

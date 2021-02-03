@@ -30,7 +30,7 @@ const FeatureAsmaulHusna = (props) => {
             </>
           ) : (
             items.map((item) => (
-              <Grid item sm={6} md={4} xs={12} spacing={3}>
+              <Grid item xs={12} md={6} lg={4} spacing={3}>
                 <div className="asmaul-card">
                   <h2 className="text">{item.name}</h2>
                   <p className="textTransliteration">{`${item.number}. ${item.transliteration}`}</p>

@@ -5,7 +5,7 @@ import { Skeleton } from "@material-ui/lab";
 import "./SurahCardSkeleton.scss";
 const SurahCardSkeleton = () => {
   return (
-    <Grid item xs={12} sm={6} md={4}>
+    <Grid item xs={12} md={6} lg={4}>
       <div className="surah-collection-item-skleton">
         <dv className="surah-detail">
           <h3>

@@ -2,33 +2,31 @@
 #featured-asmaulhusna {
   .asmaul-card {
     @include card-box;
-    display: flex;
-    flex-direction: column;
-    padding: 25px 0;
-    height: 100%;
     text-align: center;
+    padding: 20px;
+
     .text {
       font-family: Lateef;
       font-style: normal;
       font-weight: normal;
-      font-size: 44px;
+      font-size: $text-size-arab-1;
       line-height: 93px;
     }
 
     .textTransliteration {
-      font-family: Poppins;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: $h4;
       line-height: 27px;
       color: #3e8a8e;
+      margin-bottom: 8px;
     }
 
     .textTranslation {
       font-family: Poppins;
       font-style: normal;
       font-weight: 300;
-      font-size: 14px;
+      font-size: $h5;
       line-height: 15px;
     }
   }

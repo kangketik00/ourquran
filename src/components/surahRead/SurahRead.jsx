@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import { Container, Toolbar } from "@material-ui/core";
-import "./SurahRead.scss";
 import AyahCard from "../ayahCard/AyahCard";
 import SurahReadTitle from "../surahReadTitle/SurahReadTitle";
 import AyahCardSkeleton from "../ayahCardSkeleton/AyahCardSkeleton";
