@@ -71,6 +71,7 @@ class AudioSurah extends Component {
           playlist={playlist}
           currentSurahIndex={currentSurahIndex}
         />
+
         {/* Mobile Size */}
         <AudioSurahMobile
           handleClickPrevious={this.handleClickPrevious}

@@ -48,3 +48,38 @@
     }
   }
 }
+
+// Mobile
+@media (max-width: 575.98px) {
+  .ayah-card {
+    padding: 30px;
+    margin-bottom: 30px;
+    .surah {
+      margin-bottom: 41px;
+
+      .number-surah {
+        font-size: $h11 - 2;
+        width: 30px;
+        height: 30px;
+      }
+
+      .text-ayah {
+        font-size: $h10 - 8;
+        line-height: normal;
+        width: 80%;
+      }
+    }
+    .text-translate {
+      .text-transliteration {
+        font-size: $h5 - 2;
+        margin-bottom: 10px;
+        line-height: normal;
+      }
+
+      .text-translation {
+        font-size: $h9 - 3;
+        line-height: normal;
+      }
+    }
+  }
+}
