@@ -31,3 +31,24 @@
     }
   }
 }
+
+// Mobile
+@media (max-width: 575.98px) {
+  #featured-asmaulhusna {
+    .asmaul-card {
+      .text {
+        font-size: 10vw;
+      }
+
+      .textTransliteration {
+        font-size: 4.5vw;
+        line-height: 27px;
+      }
+
+      .textTranslation {
+        font-size: 3.5vw;
+        line-height: 15px;
+      }
+    }
+  }
+}

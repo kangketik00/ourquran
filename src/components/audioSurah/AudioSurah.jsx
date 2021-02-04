@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
-import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import "./AudioSurah.scss";
 import Skeleton from "@material-ui/lab/Skeleton";
-
+import { Hidden } from "@material-ui/core";
+import AudioSurahMobile from "../audioSurahMobile/AudioSurahMobile";
+import AudioSurahDesktop from "../audioSurahDesktop/AudioSurahDesktop";
 const mapStateToProps = (state) => {
   return {
     items: state.surah.items,
@@ -61,26 +62,23 @@ class AudioSurah extends Component {
 
     return (
       <div id="audio-player">
-        <AudioPlayer
-          header={`${surah.englishName} Ayah : ${playlist[currentSurahIndex].numberInSurah}`}
-          autoPlayAfterSrcChange={true}
-          showSkipControls={true}
-          showJumpControls={false}
-          src={`${playlist[currentSurahIndex].audio}`}
-          onClickPrevious={() => this.handleClickPrevious(playlist)}
-          onClickNext={() => this.handleClickNext(playlist)}
-          onEnded={() => this.handleEnded(playlist)}
-          layout={"horizontal-reverse"}
-          customProgressBarSection={[
-            RHAP_UI.CURRENT_TIME,
-            RHAP_UI.PROGRESS_BAR,
-            RHAP_UI.DURATION,
-            RHAP_UI.VOLUME,
-          ]}
-          customControlsSection={[
-            RHAP_UI.MAIN_CONTROLS,
-            RHAP_UI.ADDITIONAL_CONTROLS,
-          ]}
+        {/* Tablet and Laptop Size */}
+        <AudioSurahDesktop
+          handleClickPrevious={this.handleClickPrevious}
+          handleClickNext={this.handleClickNext}
+          handleEnded={this.handleEnded}
+          surah={surah}
+          playlist={playlist}
+          currentSurahIndex={currentSurahIndex}
+        />
+        {/* Mobile Size */}
+        <AudioSurahMobile
+          handleClickPrevious={this.handleClickPrevious}
+          handleClickNext={this.handleClickNext}
+          handleEnded={this.handleEnded}
+          surah={surah}
+          playlist={playlist}
+          currentSurahIndex={currentSurahIndex}
         />
       </div>
     );

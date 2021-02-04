@@ -53,3 +53,47 @@
     }
   }
 }
+
+// Medium devices (tablets, 768px and down)
+@media (max-width: 1199.98px) {
+  .surah-collection-item {
+    .surah-detail {
+      .text-transliteration {
+        font-size: $h4 - 2;
+        line-height: 36px;
+      }
+
+      .text-translation {
+        font-size: $h6 - 2;
+        line-height: 21px;
+      }
+    }
+
+    .surah-name {
+      h3 {
+        font-size: $text-size-arab-1 - 15;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .surah-collection-item {
+    .surah-detail {
+      .text-transliteration {
+        font-size: $h4 - 1;
+        line-height: 36px;
+      }
+
+      .text-translation {
+        font-size: $h6;
+        line-height: 21px;
+      }
+    }
+
+    .surah-name {
+      h3 {
+        font-size: $text-size-arab-1 - 10;
+      }
+    }
+  }
+}

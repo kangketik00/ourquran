@@ -77,19 +77,19 @@ section#jumbotron-header {
       padding: 42px 0 0 0;
       .tex-box {
         h1 {
-          font-size: $h1 - 30;
+          font-size: 7vw;
           line-height: 35px;
         }
 
         p {
           margin-top: 10px;
           margin-bottom: 39px;
-          font-size: 10px;
+          font-size: 3.5vw;
         }
       }
 
       .MuiButton-root {
-        font-size: $h5 - 8;
+        font-size: 3.5vw;
       }
 
       svg#hero-image {
