@@ -20,11 +20,11 @@ class JumbotronHeader extends Component {
 
               <p>have you read the al-qur’an today ?</p>
             </div>
-            <Button variant="contained" color="secondary">
-              <Link to="features" smooth={true}>
+            <Link to="features" smooth={true}>
+              <Button variant="contained" color="secondary">
                 Get your surah
-              </Link>
-            </Button>
+              </Button>
+            </Link>
             <BackgroundImage id="hero-image" />
           </div>
         </Container>

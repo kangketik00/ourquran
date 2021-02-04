@@ -5,7 +5,6 @@ import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import "./AudioSurah.scss";
 import Skeleton from "@material-ui/lab/Skeleton";
-import ErrorHandle from "../error/ErrorHandle";
 
 const mapStateToProps = (state) => {
   return {
@@ -55,7 +54,7 @@ class AudioSurah extends Component {
   render() {
     const { items, loading, error } = this.props;
     const { currentSurahIndex } = this.state;
-    if (error) return <ErrorHandle />;
+    if (error) return <h1>oops something went wrong</h1>;
     if (loading) return <Skeleton />;
     const surah = items[0];
     const playlist = surah.ayahs;

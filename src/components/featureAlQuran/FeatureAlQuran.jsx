@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import SurahCard from "../surahCard/SurahCard";
 import SurahCardSkeleton from "../surahCardSkeleton/SurahCardSkeleton";
 import SearchBox from "../searchBox/SearchBox";
-import ErrorHandle from "../error/ErrorHandle";
+import ErrorHandle from "../errorHandle/ErrorHandle";
 
 import "./FeaturedAlQuran.scss";
 const mapStateToProps = (state) => {

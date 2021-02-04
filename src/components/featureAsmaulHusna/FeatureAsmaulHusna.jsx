@@ -4,6 +4,7 @@ import Container from "@material-ui/core/Container";
 import { connect } from "react-redux";
 import "./FeatureAsmaulHusna.scss";
 import FeatureAsmaulSkeleton from "../featureAsmaulSkeleton/FeatureAsmaulSkeleton";
+import ErrorHandle from "../errorHandle/ErrorHandle";
 
 const mapStateToProps = (state) => {
   return {
@@ -16,7 +17,7 @@ const mapStateToProps = (state) => {
 const FeatureAsmaulHusna = (props) => {
   console.log(props);
   const { items, loading, error } = props;
-  if (error) return <h1>Error</h1>;
+  if (error) return <ErrorHandle />;
 
   return (
     <section id="featured-asmaulhusna">
@@ -30,7 +31,7 @@ const FeatureAsmaulHusna = (props) => {
             </>
           ) : (
             items.map((item) => (
-              <Grid item xs={12} md={6} lg={4} spacing={3}>
+              <Grid item xs={12} sm={6} lg={4} spacing={3}>
                 <div className="asmaul-card">
                   <h2 className="text">{item.name}</h2>
                   <p className="textTransliteration">{`${item.number}. ${item.transliteration}`}</p>

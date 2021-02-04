@@ -8,7 +8,6 @@ import Footer from "./components/footer/Footer";
 import HomePage from "./pages/homePage/HomePage";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import NoMatch from "./pages/noMatch/NoMatch";
-
 import DetailPage from "./pages/detailPage/DetailPage";
 
 class App extends Component {

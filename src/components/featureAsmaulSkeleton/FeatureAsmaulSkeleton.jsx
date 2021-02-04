@@ -5,7 +5,7 @@ import { Skeleton } from "@material-ui/lab";
 import "./FeatureAsmaulSkeleton.scss";
 const AsmaulCardSkeleton = () => {
   return (
-    <Grid item xs={12} md={6} lg={4}>
+    <Grid item xs={12} sm={6} lg={4}>
       <div className="asmaul-collection-item-skleton">
         <p className="text">
           <Skeleton varian="text" animation="wave" width={140} height={50} />

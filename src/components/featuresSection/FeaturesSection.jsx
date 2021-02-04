@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./FeaturesSection.scss";
 import FeatureAlQuran from "../featureAlQuran/FeatureAlQuran";
 import FeatureAsmaulHusna from "../featureAsmaulHusna/FeatureAsmaulHusna";
+import { Container } from "@material-ui/core";
 
 class FeaturesSection extends Component {
   constructor(props) {
@@ -51,8 +52,7 @@ class FeaturesSection extends Component {
               Asmaul Husna
             </span>
           </div>
-
-          {this.handleTabsOption()}
+          <Container>{this.handleTabsOption()}</Container>
         </div>
       </section>
     );

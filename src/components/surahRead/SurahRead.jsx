@@ -5,7 +5,7 @@ import { Container, Toolbar } from "@material-ui/core";
 import AyahCard from "../ayahCard/AyahCard";
 import SurahReadTitle from "../surahReadTitle/SurahReadTitle";
 import AyahCardSkeleton from "../ayahCardSkeleton/AyahCardSkeleton";
-import ErrorHandle from "../error/ErrorHandle";
+import ErrorHandle from "../errorHandle/ErrorHandle";
 const mapStateToProps = (state) => {
   return {
     items: state.surah.items,
