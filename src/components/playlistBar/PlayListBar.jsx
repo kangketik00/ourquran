@@ -3,7 +3,8 @@ import React from "react";
 import Toolbar from "@material-ui/core/Toolbar";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Slide from "@material-ui/core/Slide";
-import AudioSurah from "../audioSurah/AudioSurah";
+import AudioSurahDesktop from "../audioSurahDesktop/AudioSurahDesktop";
+import AudioSurahMobile from "../audioSurahMobile/AudioSurahMobile";
 import "./PlayLIstBar.scss";
 
 // Method for hide on scroll
@@ -24,7 +25,11 @@ const PlayListBar = ({ handleToggle, ...props }) => {
       <HideOnScroll {...props}>
         <div id="playListBar">
           <Toolbar disableGutters={true}>
-            <AudioSurah />
+            {/* Audio Surah Desktop Size */}
+            <AudioSurahDesktop />
+
+            {/* Audio Surah Mobile Size */}
+            <AudioSurahMobile />
           </Toolbar>
         </div>
       </HideOnScroll>

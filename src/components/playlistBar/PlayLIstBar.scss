@@ -7,4 +7,44 @@
   bottom: 0;
   left: 0;
   width: 100%;
+
+  //Audio Surah
+  button {
+    color: #3e8a8e;
+    svg {
+      fill: #3e8a8e;
+    }
+  }
+
+  .rhap_container {
+    .rhap_header {
+      text-align: center;
+    }
+    .rhap_progress-section {
+      .rhap_progress-container {
+        .rhap_progress-indicator {
+          background-color: #3e8a8e;
+        }
+        .rhap_progress-filled {
+          background-color: #3e8a8e;
+        }
+      }
+
+      .rhap_volume-container {
+        .rhap_volume-indicator {
+          background-color: #3e8a8e;
+        }
+      }
+    }
+
+    .rhap_controls-section {
+      .rhap_main-controls {
+        .rhap_main-controls-button {
+          svg {
+            fill: #3e8a8e;
+          }
+        }
+      }
+    }
+  }
 }
