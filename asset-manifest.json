@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ourquran/static/css/main.50a0b0e4.chunk.css",
+    "main.js": "/ourquran/static/js/main.0051c657.chunk.js",
+    "main.js.map": "/ourquran/static/js/main.0051c657.chunk.js.map",
+    "runtime-main.js": "/ourquran/static/js/runtime-main.263d0377.js",
+    "runtime-main.js.map": "/ourquran/static/js/runtime-main.263d0377.js.map",
+    "static/css/2.3e35cbb6.chunk.css": "/ourquran/static/css/2.3e35cbb6.chunk.css",
+    "static/js/2.e72ea5cf.chunk.js": "/ourquran/static/js/2.e72ea5cf.chunk.js",
+    "static/js/2.e72ea5cf.chunk.js.map": "/ourquran/static/js/2.e72ea5cf.chunk.js.map",
+    "index.html": "/ourquran/index.html",
+    "static/css/2.3e35cbb6.chunk.css.map": "/ourquran/static/css/2.3e35cbb6.chunk.css.map",
+    "static/css/main.50a0b0e4.chunk.css.map": "/ourquran/static/css/main.50a0b0e4.chunk.css.map",
+    "static/js/2.e72ea5cf.chunk.js.LICENSE.txt": "/ourquran/static/js/2.e72ea5cf.chunk.js.LICENSE.txt",
+    "static/media/BackgroundImage.ac7c9d7d.svg": "/ourquran/static/media/BackgroundImage.ac7c9d7d.svg",
+    "static/media/SurahReadTitle.scss": "/ourquran/static/media/DetailBg.9cf30210.svg",
+    "static/media/AboutSection.scss": "/ourquran/static/media/aboutbackground.6e627203.svg",
+    "static/media/FeaturesSection.scss": "/ourquran/static/media/backgroundSurahV2.001d8685.svg",
+    "static/media/errorImage.deab148e.png": "/ourquran/static/media/errorImage.deab148e.png",
+    "static/media/notMatchBackground.96cd52b4.svg": "/ourquran/static/media/notMatchBackground.96cd52b4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.263d0377.js",
+    "static/css/2.3e35cbb6.chunk.css",
+    "static/js/2.e72ea5cf.chunk.js",
+    "static/css/main.50a0b0e4.chunk.css",
+    "static/js/main.0051c657.chunk.js"
+  ]
+}
