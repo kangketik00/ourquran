@@ -12,22 +12,20 @@ export default function NavDrawer({ anchor, open, handleClose, handleOpen }) {
     <div role="presentation" onClick={handleClose} onKeyDown={handleClose}>
       <List>
         {["Home", "Features", "About"].map((text, index) => (
-          <ListItem button key={index}>
-            <ListItemText>
-              <Link
-                key={text}
-                to={text === "Home" ? "jumbotron-header" : text.toLowerCase()}
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                hashSpy={true}
-                onClick={handleClose}
-                isDynamic={true}
-              >
-                {text}
-              </Link>
-            </ListItemText>
-          </ListItem>
+          <Link
+            key={text}
+            to={text === "Home" ? "jumbotron-header" : text.toLowerCase()}
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            onClick={handleClose}
+            isDynamic={true}
+          >
+            <ListItem button key={index}>
+              <ListItemText>{text}</ListItemText>
+            </ListItem>
+          </Link>
         ))}
       </List>
     </div>

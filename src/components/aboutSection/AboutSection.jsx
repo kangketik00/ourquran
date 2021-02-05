@@ -4,16 +4,14 @@ import alquranTitle from "../../assets/images/alquranTitle.png";
 const AboutSection = () => {
   return (
     <section id="about">
-      <div id="about-desktop">
-        <div className="inner">
-          <p>OurQur'an</p>
-          <img src={alquranTitle} alt="alquran-title" />
-          <p>
-            “This is the book about which there <br />
-            is no doubt, A guidance for those <br />
-            conscious of Allah”
-          </p>
-        </div>
+      <div className="inner">
+        <p>OurQur'an</p>
+        <img src={alquranTitle} alt="alquran-title" />
+        <p>
+          “This is the book about which there <br />
+          is no doubt, A guidance for those <br />
+          conscious of Allah”
+        </p>
       </div>
     </section>
   );
