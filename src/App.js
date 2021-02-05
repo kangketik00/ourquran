@@ -4,9 +4,7 @@ import { connect } from "react-redux";
 import { setSurahs } from "./actions/surahs";
 import { setAsmaulhusna } from "./actions/asmaulhusna";
 
-import Footer from "./components/footer/Footer";
 import HomePage from "./pages/homePage/HomePage";
-import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import NoMatch from "./pages/noMatch/NoMatch";
 import DetailPage from "./pages/detailPage/DetailPage";
 
@@ -28,9 +26,7 @@ class App extends Component {
             <Route path="/alquran/:surahId" component={DetailPage} />
             <Route path="*" component={NoMatch} />
           </Switch>
-          <Footer />
         </BrowserRouter>
-        <ScrollToTop />
       </div>
     );
   }

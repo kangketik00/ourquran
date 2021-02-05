@@ -14,7 +14,7 @@ const SurahReadTitle = (props) => {
   const { items, loading } = props;
 
   return (
-    <div id="title">
+    <div id="title-surah">
       <div className="inner">
         <h2>
           {loading ? (
