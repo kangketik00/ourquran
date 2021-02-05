@@ -14,7 +14,7 @@ class NoMatch extends Component {
           <div className="title-box">
             <h1>Ooops..</h1>
             <p>The page you are looking for does not exist!</p>
-            <Link to="/">
+            <Link to="/ourquran">
               <Button variant="contained" color="secondary">
                 Back To Homepage
               </Button>

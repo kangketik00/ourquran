@@ -4,7 +4,7 @@ export const setAsmaulhusna = () => {
   return (dispatch) => {
     dispatch(initDataStarted());
     axios
-      .get(`http://api.aladhan.com/asmaAlHusna`)
+      .get(`https://api.aladhan.com/asmaAlHusna`)
       .then((res) => {
         dispatch(initData(res.data.data));
       })
