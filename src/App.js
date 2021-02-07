@@ -19,9 +19,12 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/ourquran" component={HomePage} />
+            <Route exact path="/" component={HomePage} />
             <Route exact path="/alquran">
-              <Redirect to="/ourquran" />
+              <Redirect to="/" />
+            </Route>
+            <Route exact path="/ourquran">
+              <Redirect to="/" />
             </Route>
             <Route path="/alquran/:surahId" component={DetailPage} />
             <Route path="*" component={NoMatch} />

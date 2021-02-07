@@ -51,7 +51,7 @@ const Header = (props) => {
           </>
         ) : (
           <Typography id="back-to-home" variant="h4">
-            <Link to="/ourquran">
+            <Link to="/">
               <span className="material-icons">arrow_left</span>Back
             </Link>
           </Typography>

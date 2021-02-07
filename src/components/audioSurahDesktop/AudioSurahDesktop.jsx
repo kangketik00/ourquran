@@ -59,7 +59,8 @@ class AudioSurahDesktop extends Component {
     const { items, loading, error } = this.props;
     const { currentSurahIndex } = this.state;
 
-    if (error) return <h1>oops something went wrong</h1>;
+    if (error)
+      return <h1 style={{ textAlign: "center" }}>oops something went wrong</h1>;
     if (loading) return <Skeleton />;
     const surah = items[0];
     const playlist = surah.ayahs;
