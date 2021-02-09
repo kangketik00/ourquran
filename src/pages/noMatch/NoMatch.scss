@@ -1,21 +1,31 @@
 @import "../../initialStyle";
 #no-match {
   position: relative;
-  .background {
+  z-index: 0;
+  .background-desktop {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-
+    z-index: 1;
     img {
       width: 100%;
     }
   }
+
+  .background-ipad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
   #title {
     position: absolute;
     top: 140px;
     left: 578px;
+    z-index: 4;
     .title-box {
       h1 {
         color: #ffffff;
@@ -44,6 +54,14 @@
           background-color: #a87cd3;
         }
       }
+    }
+  }
+}
+@media (max-width: 1199.98px) {
+  #no-match {
+    #title {
+      top: 485px;
+      left: 382px;
     }
   }
 }
