@@ -41,3 +41,29 @@
     }
   }
 }
+
+@media (max-width: 575.98px) {
+  #features {
+    padding: 143px 0;
+    .features-inner {
+      #tab-options {
+        .tab-item {
+          padding: 10px 15px;
+          font-size: 5vw;
+          line-height: 30px;
+
+          &:first-child {
+            margin-right: 30px;
+          }
+
+          &.tab-active {
+            color: $color-5;
+            background-color: $color-1;
+            border-radius: 30px;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+}

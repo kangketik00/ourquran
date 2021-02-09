@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./FeaturesSection.scss";
 import FeatureAlQuran from "../featureAlQuran/FeatureAlQuran";
 import FeatureAsmaulHusna from "../featureAsmaulHusna/FeatureAsmaulHusna";
 import { Container } from "@material-ui/core";
 
+import "./FeaturesSection.scss";
 class FeaturesSection extends Component {
   constructor(props) {
     super(props);
