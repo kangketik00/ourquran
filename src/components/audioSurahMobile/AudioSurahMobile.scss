@@ -3,12 +3,34 @@
 
   .rhap_container {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     .rhap_header {
       text-align: center;
     }
-    .rhap_volume-indicator {
-      background-color: #3e8a8e;
+    .rhap_progress-section {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      .rhap_progress-container {
+        padding: 0 33px;
+        margin: 0;
+      }
+    }
+    .rhap_controls-section {
+      .rhap_additional-controls {
+        flex: 1;
+      }
+      .rhap_main-controls {
+        .rhap_play-pause-button {
+          width: 60px;
+          height: 60px;
+          font-size: 60px;
+        }
+      }
+      .rhap_volume-controls {
+        .rhap_volume-indicator {
+          background-color: #3e8a8e;
+        }
+      }
     }
   }
 }

@@ -74,6 +74,7 @@ class AudioSurahMobile extends Component {
             onClickPrevious={() => this.handleClickPrevious(playlist)}
             onClickNext={() => this.handleClickNext(playlist)}
             onEnded={() => this.handleEnded(playlist)}
+            customVolumeControls={[]}
           />
         </div>
       </Hidden>

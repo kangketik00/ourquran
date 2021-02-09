@@ -28,7 +28,7 @@ const NoMatchDesktop = () => {
             <p>The page you are looking for does not exist!</p>
             <Link to="/">
               <Button variant="contained" color="secondary">
-                Back To Homepage
+                Back
               </Button>
             </Link>
           </div>
