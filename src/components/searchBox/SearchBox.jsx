@@ -26,7 +26,7 @@ const SearchBox = (props) => {
   return (
     <Autocomplete
       id="search-box"
-      style={{ width: 463 }}
+      style={{ width: 463, backgroundColor: "#FFF" }}
       open={open}
       onOpen={() => {
         setOpen(true);

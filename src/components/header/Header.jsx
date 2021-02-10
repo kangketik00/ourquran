@@ -6,7 +6,7 @@ import NavDrawer from "../navDrawer/NavDrawer";
 import Typography from "@material-ui/core/Typography";
 import NavToggle from "../navToggle/NavToggle";
 import NavItems from "../navItems/NavItems";
-
+import logo from "../../assets/images/logo.png";
 const Header = (props) => {
   // Create state for Nav Drawer
   const [state, setState] = React.useState({
@@ -39,9 +39,9 @@ const Header = (props) => {
       <Navbar>
         {props.urlPage === "home" ? (
           <>
-            <Typography id="logo-brand" variant="h4">
-              Our<span>Qur'an</span>
-            </Typography>
+            <div id="logo-brand">
+              <img src={logo} alt="logo" />
+            </div>
 
             {/* Toggle for open drawer when mobile size*/}
             <NavToggle handleOpenDrawer={toggleDrawer(true)} />

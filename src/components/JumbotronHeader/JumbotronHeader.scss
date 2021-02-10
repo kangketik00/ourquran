@@ -44,8 +44,9 @@ section#jumbotron-header {
 // Medium devices (tablets, 768px and down)
 @media (max-width: 1199.98px) {
   section#jumbotron-header {
+    height: 100vh;
     .jumbotron-header-inner {
-      padding: 42px 0;
+      padding-top: 82px;
       .tex-box {
         h1 {
           font-size: $h1 - 15;
@@ -73,8 +74,9 @@ section#jumbotron-header {
 // Mobile
 @media (max-width: 575.98px) {
   section#jumbotron-header {
+    height: 100vh;
     .jumbotron-header-inner {
-      padding: 42px 0 0 0;
+      padding-top: 52px;
       .tex-box {
         h1 {
           font-size: 7vw;

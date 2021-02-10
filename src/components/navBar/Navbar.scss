@@ -3,16 +3,11 @@
 #navbar {
   background-color: #ffffff;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
   #logo-brand {
-    color: $color-2;
     flex-grow: 1;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: bold;
-    font-size: $h3;
-    line-height: 36px;
-    span {
-      color: $color-1;
+    img {
+      width: 13vw;
     }
   }
 
@@ -28,6 +23,25 @@
       }
       &:hover {
         color: $color-1;
+      }
+    }
+  }
+}
+@media (max-width: 1199.98px) {
+  #navbar {
+    #logo-brand {
+      img {
+        width: 15vw;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  #navbar {
+    padding-top: 18px;
+    #logo-brand {
+      img {
+        width: 40vw;
       }
     }
   }
