@@ -7,6 +7,10 @@ import AboutSection from "../../components/aboutSection/AboutSection";
 import Footer from "../../components/footer/Footer";
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop";
 class HomePage extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>
