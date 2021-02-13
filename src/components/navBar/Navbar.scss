@@ -7,7 +7,7 @@
   #logo-brand {
     flex-grow: 1;
     img {
-      width: 13vw;
+      width: 168px;
     }
   }
 
@@ -23,25 +23,6 @@
       }
       &:hover {
         color: $color-1;
-      }
-    }
-  }
-}
-@media (max-width: 1199.98px) {
-  #navbar {
-    #logo-brand {
-      img {
-        width: 15vw;
-      }
-    }
-  }
-}
-@media (max-width: 575.98px) {
-  #navbar {
-    padding-top: 18px;
-    #logo-brand {
-      img {
-        width: 40vw;
       }
     }
   }

@@ -17,6 +17,7 @@ const mapStateToProps = (state) => {
 const FeatureAsmaulHusna = (props) => {
   console.log(props);
   const { items, loading, error } = props;
+
   if (error) return <ErrorHandle />;
 
   return (

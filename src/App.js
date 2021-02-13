@@ -10,6 +10,7 @@ import DetailPage from "./pages/detailPage/DetailPage";
 
 class App extends Component {
   componentDidMount() {
+    console.log(this.props);
     this.props.dispatch(setSurahs());
     this.props.dispatch(setAsmaulhusna());
   }

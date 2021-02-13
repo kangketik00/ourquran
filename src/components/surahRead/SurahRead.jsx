@@ -6,6 +6,7 @@ import AyahCard from "../ayahCard/AyahCard";
 import SurahReadTitle from "../surahReadTitle/SurahReadTitle";
 import AyahCardSkeleton from "../ayahCardSkeleton/AyahCardSkeleton";
 import ErrorHandle from "../errorHandle/ErrorHandle";
+
 const mapStateToProps = (state) => {
   return {
     items: state.surah.items,
