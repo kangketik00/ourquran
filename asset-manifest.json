@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/ourquran/static/css/main.3437c904.chunk.css",
-    "main.js": "/ourquran/static/js/main.7bbba28b.chunk.js",
-    "main.js.map": "/ourquran/static/js/main.7bbba28b.chunk.js.map",
+    "main.css": "/ourquran/static/css/main.92e99a24.chunk.css",
+    "main.js": "/ourquran/static/js/main.f3695fd5.chunk.js",
+    "main.js.map": "/ourquran/static/js/main.f3695fd5.chunk.js.map",
     "runtime-main.js": "/ourquran/static/js/runtime-main.263d0377.js",
     "runtime-main.js.map": "/ourquran/static/js/runtime-main.263d0377.js.map",
     "static/css/2.3e35cbb6.chunk.css": "/ourquran/static/css/2.3e35cbb6.chunk.css",
-    "static/js/2.0a4a5847.chunk.js": "/ourquran/static/js/2.0a4a5847.chunk.js",
-    "static/js/2.0a4a5847.chunk.js.map": "/ourquran/static/js/2.0a4a5847.chunk.js.map",
+    "static/js/2.b476e02c.chunk.js": "/ourquran/static/js/2.b476e02c.chunk.js",
+    "static/js/2.b476e02c.chunk.js.map": "/ourquran/static/js/2.b476e02c.chunk.js.map",
     "index.html": "/ourquran/index.html",
     "static/css/2.3e35cbb6.chunk.css.map": "/ourquran/static/css/2.3e35cbb6.chunk.css.map",
-    "static/css/main.3437c904.chunk.css.map": "/ourquran/static/css/main.3437c904.chunk.css.map",
-    "static/js/2.0a4a5847.chunk.js.LICENSE.txt": "/ourquran/static/js/2.0a4a5847.chunk.js.LICENSE.txt",
+    "static/css/main.92e99a24.chunk.css.map": "/ourquran/static/css/main.92e99a24.chunk.css.map",
+    "static/js/2.b476e02c.chunk.js.LICENSE.txt": "/ourquran/static/js/2.b476e02c.chunk.js.LICENSE.txt",
     "static/media/BackgroundImage.ac7c9d7d.svg": "/ourquran/static/media/BackgroundImage.ac7c9d7d.svg",
     "static/media/SurahReadTitle.scss": "/ourquran/static/media/DetailBg.9cf30210.svg",
-    "static/media/AboutSection.scss": "/ourquran/static/media/aboutbackground.6e627203.svg",
-    "static/media/FeaturesSection.scss": "/ourquran/static/media/backgroundSurahV2.001d8685.svg",
+    "static/media/AboutSection.scss": "/ourquran/static/media/aboutbackground.f40a11bf.svg",
+    "static/media/FeaturesSection.scss": "/ourquran/static/media/backgroundSurahV2.6f6a5c0c.svg",
     "static/media/errorImage.deab148e.png": "/ourquran/static/media/errorImage.deab148e.png",
-    "static/media/notMatchBackground.96cd52b4.svg": "/ourquran/static/media/notMatchBackground.96cd52b4.svg",
-    "static/media/notMatchBackgroundipad.7d206a6b.svg": "/ourquran/static/media/notMatchBackgroundipad.7d206a6b.svg",
-    "static/media/notMatchBackgroundmobile.c0a93fef.svg": "/ourquran/static/media/notMatchBackgroundmobile.c0a93fef.svg"
+    "static/media/notMatchBackground.b979761e.svg": "/ourquran/static/media/notMatchBackground.b979761e.svg",
+    "static/media/notMatchBackgroundipad.b312edd7.svg": "/ourquran/static/media/notMatchBackgroundipad.b312edd7.svg",
+    "static/media/notMatchBackgroundmobile.87125dce.svg": "/ourquran/static/media/notMatchBackgroundmobile.87125dce.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.263d0377.js",
     "static/css/2.3e35cbb6.chunk.css",
-    "static/js/2.0a4a5847.chunk.js",
-    "static/css/main.3437c904.chunk.css",
-    "static/js/main.7bbba28b.chunk.js"
+    "static/js/2.b476e02c.chunk.js",
+    "static/css/main.92e99a24.chunk.css",
+    "static/js/main.f3695fd5.chunk.js"
   ]
 }
