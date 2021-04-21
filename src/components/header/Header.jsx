@@ -7,14 +7,14 @@ import Typography from "@material-ui/core/Typography";
 import NavToggle from "../navToggle/NavToggle";
 import NavItems from "../navItems/NavItems";
 import logo from "../../assets/images/logo.png";
-const Header = (props) => {
+const Header = props => {
   // Create state for Nav Drawer
   const [state, setState] = React.useState({
     showDrawer: false,
   });
 
   // method for toggle drawer (open/close)
-  const toggleDrawer = (open) => (event) => {
+  const toggleDrawer = open => event => {
     if (
       event &&
       event.type === "keydown" &&
@@ -51,7 +51,7 @@ const Header = (props) => {
           </>
         ) : (
           <Typography id="back-to-home" variant="h4">
-            <Link to="/">
+            <Link to="/ourquran">
               <span className="material-icons">arrow_left</span>Back
             </Link>
           </Typography>

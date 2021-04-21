@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import { setSurahs } from "./actions/surahs";
 import { setAsmaulhusna } from "./actions/asmaulhusna";
@@ -10,7 +10,6 @@ import DetailPage from "./pages/detailPage/DetailPage";
 
 class App extends Component {
   componentDidMount() {
-    console.log(this.props);
     this.props.dispatch(setSurahs());
     this.props.dispatch(setAsmaulhusna());
   }
@@ -20,15 +19,10 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/alquran">
-              <Redirect to="/" />
-            </Route>
-            <Route exact path="/ourquran">
-              <Redirect to="/" />
-            </Route>
-            <Route path="/alquran/:surahId" component={DetailPage} />
+            <Route exact path="/ourquran" component={HomePage} />
+            <Route path="/ourquran/:surahId" component={DetailPage} />
             <Route path="*" component={NoMatch} />
+            <Route exact path="/ourquran/404" component={NoMatch} />
           </Switch>
         </BrowserRouter>
       </div>

@@ -6,7 +6,7 @@ import "./FeatureAsmaulHusna.scss";
 import FeatureAsmaulSkeleton from "../featureAsmaulSkeleton/FeatureAsmaulSkeleton";
 import ErrorHandle from "../errorHandle/ErrorHandle";
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     items: state.asmaulhusna.items,
     error: state.asmaulhusna.error,
@@ -14,8 +14,7 @@ const mapStateToProps = (state) => {
   };
 };
 
-const FeatureAsmaulHusna = (props) => {
-  console.log(props);
+const FeatureAsmaulHusna = props => {
   const { items, loading, error } = props;
 
   if (error) return <ErrorHandle />;
@@ -26,12 +25,12 @@ const FeatureAsmaulHusna = (props) => {
         <Grid container spacing={3}>
           {loading ? (
             <>
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((value) => (
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(value => (
                 <FeatureAsmaulSkeleton key={value} />
               ))}
             </>
           ) : (
-            items.map((item) => (
+            items.map(item => (
               <Grid item xs={12} sm={6} lg={4} spacing={3} key={item.number}>
                 <div className="asmaul-card">
                   <h2 className="text">{item.name}</h2>
