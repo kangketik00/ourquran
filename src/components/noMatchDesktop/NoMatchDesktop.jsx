@@ -26,7 +26,7 @@ const NoMatchDesktop = () => {
           <div className="title-box">
             <h1>Ooops..</h1>
             <p>The page you are looking for does not exist!</p>
-            <Link to="/ourquran">
+            <Link to="/">
               <Button variant="contained" color="secondary">
                 Back
               </Button>

@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/ourquran" component={HomePage} />
+            <Route exact path="/" component={HomePage} />
             <Route path="/ourquran/:surahId" component={DetailPage} />
             <Route path="*" component={NoMatch} />
             <Route exact path="/ourquran/404" component={NoMatch} />
