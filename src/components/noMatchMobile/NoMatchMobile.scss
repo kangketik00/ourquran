@@ -4,18 +4,14 @@
   position: relative;
   width: 100%;
   height: 100%;
-  .background-mobile {
-    position: absolute;
+  background-color: #90d0d5;
+  img {
     width: 100%;
-    z-index: 1;
-    img {
-      width: 100%;
-    }
   }
 
   .title {
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 30px;
     z-index: 4;
 
@@ -26,7 +22,6 @@
         font-style: normal;
         font-weight: 600;
         font-size: 48px;
-        line-height: 72px;
       }
 
       p {
@@ -35,13 +30,12 @@
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 36px;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
       }
 
       .MuiButtonBase-root {
         border-radius: 8px;
-        padding: 13px 16px;
+        width: 7rem;
         font-family: Poppins;
         &.MuiButton-containedSecondary {
           background-color: #a87cd3;

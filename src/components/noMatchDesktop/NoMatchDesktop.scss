@@ -1,26 +1,10 @@
 @import "../../initialStyle";
 #no-match-desktop {
   position: relative;
-  z-index: 0;
-  .background-desktop {
-    position: absolute;
-    top: 0;
-    left: 0;
+  background-color: #90d0d5;
+  img {
     width: 100%;
-    z-index: 1;
-    img {
-      width: 100%;
-    }
   }
-
-  .background-ipad {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
-
   .title {
     position: absolute;
     top: 140px;

@@ -5,7 +5,8 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-body {
+body,
+html {
   margin: 0;
   font-family: "Poppins";
 }
